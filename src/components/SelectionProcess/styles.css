@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Century+Gothic:400,600,700&display=swap");
 
 .selection-process {
-  background: url("../../assets/img/background-selection_process.svg") repeat 0
-    0;
-  background-size: cover;
-  background-position: center;
+  background-image: url("../../assets/img/background-selection_process.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
 
+  height: 757px;
   overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .selection-process h1 {
   margin: 140px 0px 0px 100px;
   width: 808px;
-  height: 204px;
+  height: fit-content;
 
   font-family: "Century Gothic";
   font-style: normal;
@@ -27,12 +26,20 @@
 }
 
 .form-signin {
-  display: flex;
-  justify-content: space-between;
+  margin: 62px 0px 0px 360px;
+
+  width: fit-content;
+  height: fit-content;
+  
+}
+
+.form-signin_inputs{
+  width: fit-content;
+  height: fit-content;
 }
 
 .form-signin_input {
-  margin: 0px;
+  margin: 0px 40px 0px 0px;
   width: 385px;
   height: 49px;
 
@@ -50,9 +57,11 @@
 
 .form-signin_input:focus {
   outline: none;
+  color: white;
 }
 
 .form-signin_submit {
+  margin: 38px 0px 0px 247px;
   width: 326px;
   height: 62px;
 
@@ -68,8 +77,22 @@
   border: hidden;
 
   color: #030d14;
+  transition: 0.4s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../../assets/img/arrow-signin_button.svg");
+  background-repeat: no-repeat;
+  background-position: 85% 50%;
 }
 
 .form-signin_submit:focus {
   outline: none;
+}
+
+.form-signin_submit:hover {
+  cursor: pointer;
+  background-color: orange;
 }
