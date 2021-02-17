@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Century+Gothic:400,600,700&display=swap");
+
+.projects {
+  background-image: url("../../assets/img/background-projects.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+}
+
+.projects-head {
+  margin: 4.5% 30% 0% 30%;
+  display: block;
+  text-align: center;
+}
+
+.projects-title_head {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 49px;
+  /* or 89% */
+
+  text-align: center;
+  margin-bottom: 5%;
+
+  color: #ffffff;
+}
+
+.projects-description_head {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.2px;
+  line-height: 28px;
+
+  text-align: center;
+  margin-bottom: 6.5%;
+
+  color: #ffffff;
+}
+
+.projects-cards {
+  display: flex;
+  margin: 61px 0px 0px 35px 
+}
+
+.card-and-icon {
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  text-align: center;
+}
+
+.project-card {
+  width: 314px;
+  height: 225px;
+
+  background: rgba(22, 36, 47, 0.6);
+  border-radius: 50px;
+  margin: 0px 34px 41px 34px;
+  padding: 40px 47px 47px 47px; 
+}
+
+.project-card_title {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 51px;
+  /* or 113% */
+
+  height: 68px;
+  text-align: left;
+  margin-bottom: 20%;
+
+  color: #ffffff;
+}
+
+.project-card_description {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  align-items: center;
+  text-align: justify;
+
+  color: #ffffff;
+}
