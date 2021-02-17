@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Century+Gothic:400,600,700&display=swap");
+
+.main-presentation {
+  background: url("../../assets/img/background_image.svg") repeat 0 0;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.main-presentation_card {
+  margin: 183px 28px 297px 75px;
+  padding: 0px 0px 0px 10px;
+  width: fit-content;
+  height: fit-content;
+
+  background: rgba(20, 37, 52, 0.65);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+
+  align-items: center;
+}
+
+.main-presentation_card h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 49px;
+  /* or 102% */
+
+  color: #ffffff;
+  padding: 1%;
+}
+
+.main-presentation_card p {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.2px;
+  line-height: 28px;
+
+  color: #ffffff;
+  padding: 2%;
+}
+
+.main-presentation_image {
+  margin: 0px 2px 130px 0px;
+}
+
+
+.divisor1 {
+  width: 940px;
+  height: 2px;
+  left: -1px;
+  top: 704px;
+
+  background: #566069;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+
+  margin: 7px 0px 7px 0px;
+}
+
+.divisor2 {
+  width: 826px;
+  height: 2px;
+  left: -1px;
+  top: 712px;
+
+  background: #566069;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+
+  margin: 7px 0px 7px 0px;
+}
+
+.divisor3 {
+  width: 725px;
+  height: 2px;
+  left: -1px;
+  top: 719px;
+
+  background: #566069;
+
+  margin: 7px 0px 7px 0px;
+}

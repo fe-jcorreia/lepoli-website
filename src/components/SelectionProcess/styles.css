@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Century+Gothic:400,600,700&display=swap");
+
+.selection-process {
+  background: url("../../assets/img/background-selection_process.svg") repeat 0
+    0;
+  background-size: cover;
+  background-position: center;
+
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selection-process h1 {
+  margin: 140px 0px 0px 100px;
+  width: 808px;
+  height: 204px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 55px;
+  /* or 86% */
+
+  color: #ffffff;
+}
+
+.form-signin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-signin_input {
+  margin: 0px;
+  width: 385px;
+  height: 49px;
+
+  background: #354450;
+  border-radius: 26px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.2px;
+  line-height: 28px;
+  text-align: center;
+  border: hidden;
+}
+
+.form-signin_input:focus {
+  outline: none;
+}
+
+.form-signin_submit {
+  width: 326px;
+  height: 62px;
+
+  background: rgba(229, 229, 229, 0.79);
+  border-radius: 26px;
+
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  border: hidden;
+
+  color: #030d14;
+}
+
+.form-signin_submit:focus {
+  outline: none;
+}
