@@ -1,5 +1,4 @@
 import React from "react";
-import BgBlueFire from "../../assets/img/logo-main_page.svg";
 import "./styles.css";
 
 function SelectionProcess() {

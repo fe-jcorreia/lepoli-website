@@ -1,0 +1,41 @@
+.footer {
+  width: 95%;
+  height: 361px;
+
+  display: flex;
+  justify-content: space-around;
+  background: #000000;
+
+  margin: 0% 2.5% 0% 2.5%;
+  padding: 0.5%;
+}
+
+.footer-content {
+  width: 20%;
+  margin: 5.1% 3% 0% 3%;
+
+  display: block;
+  flex-wrap: wrap;
+}
+
+.footer-content_title {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  margin-bottom: 5%;
+  color: #ffffff;
+}
+
+.footer-content_description {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: justify;
+  color: #ffffff;
+}

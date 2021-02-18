@@ -1,0 +1,52 @@
+.sponsors {
+background: linear-gradient(180deg, rgba(164, 191, 213, 0) 8.85%, #A4BFD5 81.77%);
+height: 792px;
+}
+
+.sponsors-header {
+    width: 50%;
+margin: 0% 24% 0% 24%;
+  display: block;
+  align-items: center;
+}
+
+.sponsors-header_title {
+width: 100%;
+height: fit-content;
+
+font-family: "Century Gothic";
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 49px;
+/* or 89% */
+text-align: center;
+margin-bottom: 6%;
+
+color: #FFFFFF;
+}
+
+.sponsors-header_description {
+width: 100%;
+height: fit-content;
+
+font-family: "Century Gothic";
+font-style: normal;
+font-weight: normal;
+font-size: 23.2px;
+line-height: 28px;
+
+text-align: center;
+color: #FFFFFF;
+}
+
+.sponsors-logos {
+    margin: 7% 24% 0% 24%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 34%;
+}
